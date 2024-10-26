@@ -47,9 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Salesforce Administrator with certifications in
-        Administration and Platform App Builder. I also develop react
-        applications. Let's work together to bring your ideas to life!
+        I am a certified Salesforce professional with hands-on experience in Salesforce platform development and administration. 
+        I bring strong technical expertise in CRM customization, data management, and user management. 
+        In addition, I am skilled in Java, JavaScript, React JS, and Linux, with practical experience across front-end frameworks and backend operations.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

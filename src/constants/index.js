@@ -4,22 +4,24 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  redhat,
   html,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  aws,
   mongodb,
   git,
-  figma,
-  docker,
+  ansible,
+  // docker,
   dojo,
   maxfit,
   magicMem,
   tripguide,
   threejs,
+  bc,
+  spaceX
 } from "../assets";
 
 export const navLinks = [
@@ -39,7 +41,7 @@ export const navLinks = [
 
 export const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -47,16 +49,32 @@ export const services = [
     icon: mobile,
   },
   {
-    title: "Salesforce Platform App Builder",
+    title: "Redhat Enterprise Linux",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Amazon Web Services",
     icon: creator,
   },
 ];
 
 export const technologies = [
+  {
+    name: "Salesforce",
+    icon: redux,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "RHEL",
+    icon: redhat,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -70,25 +88,10 @@ export const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Salesforce",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  
   {
     name: "MongoDB",
     icon: mongodb,
@@ -102,12 +105,12 @@ export const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "ansible",
+    icon: ansible,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "bc",
+    icon: bc,
   },
 ];
 
@@ -271,6 +274,31 @@ export const projects = [
     ],
     image: maxfit,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "SpaceX-Launches",
+    description:
+      "Analyzed and visualized SpaceX launch data to develop interactive dashboards tracking launch performance and mission outcomes. Use of NextJS and GraphQL ",
+    tags: [
+      {
+        name: "NextJS",
+        color: "bg-gradient-to-r from-blue-500",
+      },
+      {
+        name: "Tailwind",
+        color: "bg-gradient-to-r from-orange-500",
+      },
+      {
+        name: "Apollo GraphQL",
+        color: "bg-gradient-to-r from-pink-500",
+      },
+      {
+        name: "API",
+        color: "bg-gradient-to-r from-purple-500",
+      },
+    ],
+    image: spaceX,
+    source_code_link: "https://github.com/Omkardhurjad/spacex-graphql-app",
   },
 ];
 

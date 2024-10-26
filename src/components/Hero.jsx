@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
@@ -17,12 +17,12 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className="text-[#915eff]">Omkar</span>
+            Hi, I am <span className="text-[#915eff]">Omkar</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A Salesforce certified Administrator,
             <br className="sm:block hidden" /> I develop React Applications
-          </p>
+          </p> */}
         </div>
       </div>
       <ComputersCanvas />
